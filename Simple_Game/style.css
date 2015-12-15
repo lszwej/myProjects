@@ -1,0 +1,148 @@
+body
+{
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+label{
+    font-family: "Lucida Console",  sans-serif;
+    color: rgba(63, 78, 93, 0.57);
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+header h1{
+
+    font-style: oblique;
+    font-family: "Courier New" ,monospace;
+    border-style: outset dashed outset dashed;
+    border-bottom-color: rgba(54, 49, 255, 1);
+    border-top-color: rgba(54, 49, 255, 1);
+    border-width: 10px;
+    background-color: rgba(250, 255, 112, 1);
+    color: black;
+}
+
+header h2{
+    border: 5px #ffffff ridge;
+    font-family: "Lucida Console", sans-serif;
+    border-radius: 50%;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(130, 6, 3, 1);
+    color: beige;
+}
+
+input[type=button]:hover
+{
+    background-color: rgba(254, 255, 32, 1);
+    color: #000000;
+}
+
+input[type=button]
+{
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 100%;
+    padding: 20px;
+    background-color: #6c184d;
+    border: 3px #000000 ridge;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 #ffffff;
+    cursor: pointer;
+    width: 15%;
+}
+
+input[type=text]:focus {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+input[type=text]
+{
+    font-size: 100%;
+    padding: 5px;
+    background-color: #2e278d;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 #ffffff;
+    cursor: text;
+    width: 25%;
+    font-weight: bolder;
+}
+
+.bad{
+    border: 5px ridge #ff0000;
+}
+
+.good{
+    border: 5px ridge #129b0d;
+}
+
+.goodSign{
+    color: green;
+}
+
+.badSign{
+    color: red;
+}
+
+#glowny{
+    display: block;
+    width: 1000px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#pomocTxt {
+    display: none;
+    font-family: cursive;
+    border-style: ridge dotted ridge dotted;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 52, 40, 1);
+}
+
+#gra {
+    display: none;
+}
+
+#gracz{
+    border-style: none double none double;
+    border-width: 5px;
+    background-color: rgba(140, 73, 31, 1);
+    border-radius: 5px;
+    font-family: fantasy;
+    color: #ffffff;
+}
+
+#pozostalo{
+    text-decoration: underline;
+}
+
+#flaga
+{
+    border: 1px #000000 ridge;
+}
+
+#punkty{
+    background-color: rgba(148, 255, 230, 1);
+    color: #000000;
+}
+
+#punkty:focus{
+    color: #000000;
+    border: 1px solid #ffffff;
+}
+
+#live0, #live1, #live2, #live3, #live4{
+    color: red;
+    font-size: 30px;
+}

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+    <category><pattern>*</pattern><template><random><li>let's talk about something metal</li>
+        <li>ask me about something i know</li>
+        <li>be more precise</li>
+        </random></template></category>
+    <category>
+        <pattern>who created metal</pattern>
+        <template>
+            <random>
+                <li>God made heavy metal</li>
+                <li>Some say it started from Helter Skelter by The Beatles</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>who made heavy metal</pattern>
+        <template><srai>who created metal</srai></template>
+    </category>
+    
+    <category>
+        <pattern>who started metal</pattern>
+        <template><srai>who created metal</srai></template>
+    </category>
+    
+    <category>
+        <pattern>who is * </pattern>
+        <template>Someone not worth knowing</template>
+    </category>
+    
+    <category>
+	   <pattern>what are you doing</pattern>
+	   <template>
+		<random>
+			<li>Listening to Iron Maiden</li>
+			<li>Tuning my guitar</li>
+			<li>Breaking the law!</li>
+		  </random>
+	   </template>
+    </category>
+    
+    <category>
+	   <pattern>what\'s up</pattern>
+	   <template>
+		  <srai>what are you doing</srai>
+	   </template>
+    </category>
+    
+    <category>
+        <pattern>what is on your mind</pattern>
+        <template>
+            <srai>what are you doing</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>how is going</pattern>
+        <template>
+            <srai>what are you doing</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>what are you up to</pattern>
+        <template>
+            <srai>what are you doing</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>history</pattern>
+        <template>I can tell you that metal was developed in the late 1960s and early 1970s, largely in the United Kingdom and the United States.[2] With roots in blues rock and psychedelic rock, the bands that created heavy metal developed a thick, massive sound, characterized by highly amplified distortion, extended guitar solos, emphatic beats, and overall loudness. Heavy metal lyrics and performance styles are often associated with masculinity, aggression and machismo.</template>
+    </category>
+	
+	<category>
+		<pattern>what * history *</pattern>
+		<template><srai>history</srai></template>
+	</category>
+	
+	<category>
+		<pattern>can * history *</pattern>
+		<template><srai>history</srai></template>
+	</category>
+	
+	<category>
+		<pattern>what can you tell me about *</pattern>
+		<template>i didn't hear about <star/></template>
+	</category>
+    <category>
+		<pattern>do you know *</pattern>
+		<template>i don't know <star/>. Is it good?</template>
+	</category>    
+	<category>
+		<pattern>do you know black sabbath</pattern>
+		<template>Black Sabbath are an English band, formed in Birmingham in 1968, by guitarist and main songwriter Tony Iommi, bassist and main lyricist Geezer Butler, singer Ozzy Osbourne, and drummer Bill Ward.</template>
+	</category>
+	
+	<category>
+		<pattern>what can you tell about black sabbath</pattern>
+		<template><srai>do you know black sabbath</srai></template>
+	</category>
+	
+	<category>
+		<pattern>who are black sabbath</pattern>
+		<template><srai>do you know black sabbath</srai></template>
+	</category>
+	
+	<category>
+		<pattern>give me some important bands</pattern>
+		<template>
+			<random>
+				<li>Black Sabbath, Iron Maiden, Deep Purple, Judas Priest, W.A.S.P.</li>
+				<li>Slayer, Megadeath, Anthrax, Metallica, Accept</li>
+				<li>Manowar, Venom, Behemoth, Dimmu Borgir</li>
+			</random>
+			
+			<random>
+				<li>Panthera, Exodus, Bathory</li>
+				<li>KAT, Death, Kreator, Vader</li>
+				<li>Saxon, Dream Theater, Opeth </li>
+			</random>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* most popular band *</pattern>
+		<template>Iron Maiden of course</template>
+	</category>
+    
+    <category>
+        <pattern>What is the most important album in metal history</pattern>
+        <template>It's Black Sabbath from 1970</template>
+    </category>
+    
+    <category>
+        <pattern>* most important album *</pattern><template><srai>What is the most important album in metal history</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* important album *</pattern>
+        <template>
+            <random>
+                <li>Black Sabbath(1970) - Black Sabbath</li>
+                <li>Machine Head(1972) - Deep Purple</li>
+                <li>Sabbath Bloody Sabbath(1973) - Black Sabbath</li>
+                <li>In Trance(1975) - Scorpions</li>
+                <li>Sad Wings of Destiny(1976) - Judas Priest</li>
+                <li>Iron Maiden(1980) - Iron Maiden</li>
+                <li>Ace Of Spades (1980) - Motorhead</li>
+                <li>Kill 'Em All(1983) - Metallica</li>
+                <li>Balls to the Wall(1984) - Accept</li>
+                <li>Reign In Blood(1986) - Slayer</li>
+                <li>Among the Living(1987) - Anthrax</li>
+                <li>Human(1990) - Death</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>* important metal album</pattern><template><srai>* important album *</srai></template></category>
+    <category><pattern>* important album</pattern><template><srai>* important album *</srai></template></category>
+    
+    <category><pattern>what can you tell me about metal</pattern><template>i can tell you about: the history, important people, bands, albums and more</template></category>
+    <category><pattern>what do you know about metal</pattern><template><srai>what can you tell me about metal</srai></template></category>
+    <category><pattern>what knowledge do you have</pattern><template><srai>what can you tell me about metal</srai></template></category>
+    <category><pattern>yes *</pattern><template>propably i should try it</template></category>
+    <category><pattern>no *</pattern><template>so why bother with it</template></category>
+    
+    <category><pattern>do you know accept</pattern><template>Accept played an important role in the development of speed metal and Teutonic thrash metal, being part of the German heavy/speed/power metal scene which emerged in the early to mid-1980s</template></category>
+    <category><pattern>who are accept</pattern><template><srai>do you know Accept</srai></template></category>
+    <category><pattern>what do you know about accept</pattern><template><srai>do you know Accept</srai></template></category>
+    
+    <category><pattern>do you know deep purple</pattern><template>Deep Purple are an English rock band formed in Hertford in 1968. They are considered to be among the pioneers of heavy metal and modern hard rock, although their musical approach changed over the years.</template></category>
+    <category><pattern>who are deep purple</pattern><template><srai>do you know deep purple</srai></template></category>
+    <category><pattern>what do you know about deep purple</pattern><template><srai>do you know deep purple</srai></template></category>
+    
+    <category><pattern>do you know exodus</pattern><template>Exodus is an American thrash metal band formed in 1980 in Richmond, California. Spanning a career of 34 years, Exodus has gone through numerous lineup changes, two extended hiatuses, and the deaths of two former band members.</template></category>
+    <category><pattern>who are exodus</pattern><template><srai>do you know exodus</srai></template></category>
+    <category><pattern>what can you tell me about exodus</pattern><template><srai>do you know exodus</srai></template></category>
+    
+    <category><pattern>do you know iron maiden</pattern><template>Iron Maiden are an English heavy metal band formed in Leyton, east London, in 1975 by bassist and primary songwriter Steve Harris. The band's discography has grown to thirty-seven albums, including fifteen studio albums, eleven live albums, four EPs, and seven compilations.</template></category>
+    <category><pattern>who are iron maiden</pattern><template><srai>do you know iron maiden</srai></template></category>
+    <category><pattern>what can you tell me about iron maiden</pattern><template><srai>do you know iron maiden</srai></template></category>
+    
+    <category><pattern>do you know anthrax</pattern><template>Anthrax is an American thrash metal band from New York City, New York, formed in 1981 by guitarist Scott Ian and bassist Dan Lilker. Due to the raucous music on its early releases, the group was raved as one of the leaders of the thrash metal scene from the 1980s.</template></category>
+    <category><pattern>who are anthrax</pattern><template><srai>do you know anthrax</srai></template></category>
+    <category><pattern>what can you tell me about anthrax</pattern><template><srai>do you know anthrax</srai></template></category>
+    
+    <category><pattern>do you know kat</pattern><template>Kat is a Polish heavy metal band formed in 1979 in Katowice, Poland.</template></category>
+    <category><pattern>who are kat</pattern><template><srai>do you know kat</srai></template></category>
+    <category><pattern>what can you tell me about kat</pattern><template><srai>do you know kat</srai></template></category>
+    <category><pattern>tell me more</pattern><that>kat *</that><template>Kat is one of the big trinity of polish metal. Other two are Turbo and TSA</template></category>
+    <category><pattern>do you know manowar</pattern><template>Manowar is an American heavy metal band from Auburn, New York. Formed in 1980, the group is known for its lyrics based on fantasy (particularly sword and sorcery), mythological topics (particularly Norse mythology) and for playing a lot of songs about heavy metal music, along with their "loud and bombastic" sound.</template></category>
+    <category><pattern>who are manowar</pattern><template><srai>do you know manowar</srai></template></category>
+    <category><pattern>what can you tell me about manowar</pattern><template><srai>do you know manowar</srai></template></category>
+    
+    <category><pattern>do you know metal church</pattern><template>Metal Church is an American heavy metal band. They originally formed in San Francisco, California in 1980 before relocating to Aberdeen, Washington the following year and briefly using the name Shrapnel. </template></category>
+    <category><pattern>who are metal church</pattern><template><srai>do you know metal church</srai></template></category>
+    <category><pattern>what can you tell me about metal church</pattern><template><srai>do you know metal church</srai></template></category>
+    
+    <category><pattern>do you know metallica</pattern><template>Metallica is an American heavy metal band from Los Angeles, California. The band's fast tempos, instrumentals, and aggressive musicianship placed them as one of the founding "big four" of thrash metal alongside Slayer, Megadeth, and Anthrax.</template></category>
+    <category><pattern>who are metallica</pattern><template><srai>do you know metallica</srai></template></category>
+    <category><pattern>what can you tell me about metallica</pattern><template><srai>do you know metallica</srai></template></category>
+    
+    <category><pattern>do you know slayer</pattern><template>Slayer is an American thrash metal band formed in Huntington Park, California in 1981 by guitarists Kerry King and Jeff Hanneman. Slayer rose to fame with their 1986 release Reign in Blood.</template></category>
+    <category><pattern>who are slayer</pattern><template><srai>do you know slayer</srai></template></category>
+    <category><pattern>what can you tell me about slayer</pattern><template><srai>do you know slayer</srai></template></category>
+<category><pattern>tell me more</pattern><that>Slayer *</that><template>I saw them once in Poland</template></category>
+    
+    <category><pattern>do you know megadeath</pattern><template>Megadeth is an American thrash metal band from Los Angeles, California, formed in 1983 by guitarist Dave Mustaine and bassist David Ellefson, shortly after Mustaine's dismissal from Metallica. A pioneer of the American thrash metal scene.</template></category>
+    <category><pattern>who are megadeath</pattern><template><srai>do you know megadeath</srai></template></category>
+    <category><pattern>what can you tell me about megadeath</pattern><template><srai>do you know megadeath</srai></template></category>
+    
+    <category><pattern>do you know pantera</pattern><template>Pantera was an American metal band from Arlington, Texas. It was formed in 1981 by the Abbott brothers – drummer Vinnie Paul and guitarist Dimebag Darrell – along with vocalist Terry Glaze. Bassist Rex Brown joined the band the next year.</template></category>
+    <category><pattern>who are pantera</pattern><template><srai>do you know pantera</srai></template></category>
+    <category><pattern>what can you tell me about pantera</pattern><template><srai>do you know pantera</srai></template></category>
+    
+    <category><pattern>do you know saxon</pattern><template>Saxon is an English heavy metal band formed in 1976, in South Yorkshire. As one of the leaders of the New Wave of British Heavy Metal, they had eight UK Top 40 albums in the 1980s including four UK Top 10 albums and two Top 5 albums.</template></category>
+    <category><pattern>who are </pattern><template><srai>do you know saxon</srai></template></category>
+    <category><pattern>what can you tell me about </pattern><template><srai>do you know saxon</srai></template></category>
+    
+    <category><pattern>do you know sodom</pattern><template>Sodom is a German thrash metal trio from Gelsenkirchen, formed in 1981.</template></category>
+    <category><pattern>who are sodom</pattern><template><srai>do you know sodom</srai></template></category>
+    <category><pattern>what can you tell me about sodom</pattern><template><srai>do you know sodom</srai></template></category>
+    
+    <category><pattern>tell me more</pattern><that>Sodom *</that><template>I like them. They are really good.</template></category>
+    
+    <category><pattern>do you know venom</pattern><template>Venom are an English heavy metal band that formed in 1979 in Newcastle upon Tyne. Coming to prominence towards the end of the New Wave of British Heavy Metal. Do you want my opinon?</template></category>
+    <category><pattern>who are venom</pattern><template><srai>do you know venom</srai></template></category>
+    <category><pattern>what can you tell me about venom</pattern><template><srai>do you know venom</srai></template></category>
+    
+    <category><pattern>do you know what is big four</pattern><template>It's Metallica, Slayer, Megadeath, Anthrax</template></category>
+    <category><pattern>who are big four</pattern><template><srai>do you know what is big four</srai></template></category>
+    <category><pattern>what can you tell me about big four</pattern><template><srai>do you know what is big four</srai></template></category>
+    <category><pattern>* big four *</pattern><template><srai>do you know what is big four</srai></template></category>
+    
+    <category><pattern>yes</pattern><that>Venom *</that><template>I think venom is very important band because they created foudations of extreme metal. You should listen to their album "Black Metal".</template></category>
+    
+ <category><pattern>do you know bruce dickinson</pattern><template>He is leader of Iron Maiden</template></category>
+    <category><pattern>who is * dickinson</pattern><template><srai>do you know bruce dickinson</srai></template></category>
+    <category><pattern>what can you tell me about * dickinson</pattern><template><srai>do you know bruce dickinson</srai></template></category>   
+    
+    <category><pattern>do you know james dio</pattern><template>He is king of metal but already dead.</template></category>
+    <category><pattern>who is * dio</pattern><template><srai>do you know james dio</srai></template></category>
+    <category><pattern>what can you tell me about * dio</pattern><template><srai>do you know james dio</srai></template></category>
+
+    <category><pattern>do you know Chuck Schuldiner</pattern><template>he is the father of death metal</template></category>
+    <category><pattern>who is Chuck Schuldiner</pattern><template><srai>do you know Chuck Schuldiner</srai></template></category>
+    <category><pattern>what can you tell me about Chuck Schuldiner</pattern><template><srai>do you know Chuck Schuldiner</srai></template></category>
+
+    <category><pattern></pattern><template>the </template></category>
+    <category><pattern></pattern><template>the </template></category>
+
+</aiml>

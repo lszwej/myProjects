@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="pl">
+    <meta charset="UTF-8">
+    <title>Gra państwa-stolice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="panstwaStolice.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <div id="glowny">
+
+        <header>
+            <h1> Gra państwa-stolice </h1>
+        </header>
+
+        <section id="menu">
+
+            <header>
+                <h2> Wpisz imię oraz wybierz poziom trudności </h2>
+            </header>
+
+            <form>
+                <input type="text" value="" id="imie" placeholder="Imię" /> <br />
+                <input type="radio" name="grupa1" value="easy" checked="checked" /> <label> Łatwy &nbsp; </label>
+                <input type="radio" name="grupa1" value="hard" /> <label> Trudny </label> <br /> <br />
+                <input type="button" id="start" value="Start" /> <br /> <br />
+                <input type="button" id="pomoc" value="Pomoc" />
+            </form>
+
+            <div id="pomocTxt">
+            <p> Liczba poprawnych odpowiedzi </p>
+                <ul>
+                    <li> 2 odpowiedzi -> 2 punkty </li>
+                    <li> 1 odpowiedź -> 1 punkt </li>
+                    <li> 0 odpowiedzi -> 0 punktów </li>
+                </ul>
+                <p> Dla łatwego wariantu gry limit błednych odpowiedzi wynosi 5, a dla trudnego 3. </p>
+            </div>
+        </section>
+
+        <section id="gra">
+            <header>
+                <h2> Wpisz nazwę kraju oraz jego stolicę. </h2>
+            </header>
+            <div id="gracz">
+                <p> Liczba szans </p>
+                <div id ="szanse"> </div> <br />
+                <meter value="0" min="0" max="0.9"> </meter>
+                <p id="pozostalo"> </p>
+            </div> <br />
+
+            <form id="formGra">
+                <input type="text" value="" id="panstwo" placeholder="Państwo" /> <br />
+                <input type="text" value="" id="stolica" placeholder="Stolica" /> <br />
+                <input type="button" value="Sprawdź" id="sprawdz" /> <br /> <br />
+                <input type="text" readonly="readonly" id="punkty" value="" /> <br />
+            </form>
+
+        </section>
+
+    </div>
+
+</body>
+</html>

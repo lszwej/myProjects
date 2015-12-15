@@ -1,0 +1,15 @@
+﻿niemcy;berlin
+litwa;wilno
+szkocja;edynburg
+portugalia;lizbona
+rosja;moskwa
+norwegia;oslo
+usa;waszyngton
+kuba;hawana
+argentyna;buenos aires
+brazylia;brasilia
+chiny;pekin
+australia;canberra
+tunezja;tunis
+rpa;pretoria
+izrael;jerozolima

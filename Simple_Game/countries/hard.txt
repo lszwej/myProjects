@@ -1,0 +1,15 @@
+﻿mongolia;ułan bator
+chile;santiago
+san marino;san marino
+liechtenstein;vaduz
+nowa zelandia;wellington
+kongo;brazzaville
+kuwejt;kuwejt
+pakistan;islamabad
+indie;new delhi
+cypr;nikozja
+sri lanka;sri dźajawardanapura kotte
+korea północna;pjongjang
+senegal;dakar
+haiti;port-au-prince
+tadżykistan;duszanbe

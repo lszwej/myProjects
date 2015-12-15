@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category>
+	<pattern>METAL MUSIC</pattern>
+		<template>
+			<random>
+				<li>Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s</li>
+				<li>It is a type of loud rock music that has a strong beat </li>
+				<li>It is an energetic and highly amplified electronic rock music having a hard beat</li> 
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT IS METAL MUSIC</pattern>
+		<template>
+			<srai>METAL MUSIC</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT'S METAL MUSIC</pattern>
+		<template>
+			<srai>METAL MUSIC</srai>
+		</template>
+</category>
+<category>
+	<pattern>HOW MANY GENRES OF METAL MUSIC ARE THERE</pattern>
+		<template>
+			<random>
+				<li>There is traditional heavy metal and about 26 subgenres. There are also many derivatives of subgenres.</li>
+				<li>There are 26 subgenres of heavy metal music. Do not forget about derivatives of subgenres.</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>GIVE ME SOME GENRES OF METAL MUSIC</pattern>
+		<template>
+			<random>
+				<li>Alternative metal, Black metal, Cello metal, Christian metal, </li>
+				<li>Crust metal, Dark metal, Death metal, Doom metal, </li>
+				<li>Experimental metal, Extreme metal, Folk metal, Glam metal, </li>
+			</random>
+			<random>
+				<li>Gothic metal, Grindcore, Industrial metal, Latin metal and so on.</li>
+				<li>Metalcore, Nu metal, Neo-classical metal, Post-metal and so on.</li>
+				<li>Proggressive metal, Speed metal, Stoner metal, Symphonic metal,Thrash metal and so on.</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>* GENRES OF METAL MUSIC *</pattern>
+		<template>
+			<srai>GIVE ME SOME GENRES OF METAL MUSIC</srai>
+		</template>
+</category>
+<category>
+	<pattern>* GENRES OF HEAVY METAL MUSIC *</pattern>
+		<template>
+			<srai>GIVE ME SOME GENRES OF METAL MUSIC</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT KIND OF METAL DO YOU LIKE THE MOST</pattern>
+		<template>
+			<random>
+				<li>Can't pick one I like the most.</li>
+				<li>I'd say nu metal and alternative metal are the ones I like the most</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT KIND OF METAL DO YOU LIKE</pattern>
+		<template>
+			<srai>WHAT KIND OF METAL DO YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT KIND OF METAL DO YOU PREFER</pattern>
+		<template>
+			<srai>WHAT KIND OF METAL DO YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT KIND OF METAL DO YOU LISTEN TO THE MOST</pattern>
+		<template>
+			<random>
+				<li>It's hard to tell. If I had to choose one...It would say nu metal.</li>
+				<li>Alternative metal for sure. </li>
+				<li>I might say just Heavy metal. No specific subgenre.</li>
+				<li>If you don't mind I'll pick two. Nu and alternative metal. </li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT KIND OF METAL DO YOU LISTEN TO</pattern>
+		<template>
+			<srai>WHAT KIND OF METAL DO YOU LISTEN TO THE MOST</srai>	
+		</template>
+</category>
+<category>
+	<pattern>* ABOUT SPECIFIC GENRE</pattern>
+		<template>
+			<random>
+				<li>Yeah sure. Just pick one.</li>
+				<li>Nope.</li>
+				<li>I have not much to share.</li>
+				<li>Definitely. Tell me which one.</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>_ ALTERNATIVE METAL</pattern>
+		<template>A term used to describe styles of metal which are considered to be unique or experimental. This category also overlaps circus metal and math metal. Faith No More are a prime example of the genre, along with ex-frontman Mike Patton's side projects Fantômas and Tomahawk. Other notable examples include The Melvins, Tool, A Perfect Circle, Rage Against The Machine, Helmet and System of a Down.</template>
+</category>
+<category>
+	<pattern>_  BLACK METAL</pattern>
+		<template>Considered to be the most extreme subgenre of metal. The genre has its origins in early thrash/speed metal and is often (but not always) characterised by Satanic or occult lyrical themes, usually 'screamed' out rather than sang. Venom and Bathory are credited with pioneering the genre. Other notable black metal artist include Darkthrone, Immortal, Emperor, Satyricon and Mayhem. </template>
+</category>
+<category>
+	<pattern>_  DEATH METAL</pattern>
+		<template>An extreme style of metal with low-pitched guitars and growling, often incomprehensible vocals. Lyrical themes of early death metal often centered around gore horror (hence the term), although the genre has since diversified. Examples Bolt Thrower, Mortification, Death, Morbid Angel, Deicide and Entombed. Also see Melodic death metal.</template>
+</category>
+<category>
+	<pattern>_  DOOM METAL</pattern>
+		<template>Inspired largely by the lumbering dirges and stoned, paranoid darkness of Black Sabbath, and one of the very few heavy metal subgenres to prize feel and mood more than flashy technique, doom metal bands include Candlemass, Cathedral and Anathema. </template>
+</category>
+<category>
+	<pattern>_  EXTREME METAL</pattern>
+		<template>Not a specific genre but a broader definition of some heavier and aggressive styles of metal including black metal, death metal, doom metal, grindcore, hardcore and thrash metal. </template>
+</category>
+<category>
+	<pattern>_  FOLK METAL</pattern>
+		<template>A style incorporates folk music instruments or themes. Skyclad is probably the most known band in this genre. See Subway to Sally and In Extremo.</template>
+</category>
+<category>
+	<pattern>_  GOTHIC METAL</pattern>
+		<template>A fusion of the bleak, icy atmospherics of goth rock with the loud guitars and aggression of heavy metal, finding the middle ground between the two styles in a melodramatic sense of theater and lyrical obsessions with religion and horror. Bands include Theatre of Tragedy, Paradise Lost, Lacrimosa, Tristania, My Dying Bride and Type O Negative. </template>
+</category>
+<category>
+	<pattern>_  GRINDCORE</pattern>
+		<template>Influenced by thrash metal, and also hardcore and punk, that takes its name from the "grinding" sound made by the atonal riffs 'grinding' into one another. The style is characterized by a vocal style similar to death metal, rapid fire "blast beats" from double-kick drums and short songs. Exponents of the genre include Napalm Death (regarded as pioneers of the style), Carcass and Extreme Noise Terror. </template>
+</category>
+<category>
+	<pattern>_  INDUSTRIAL METAL</pattern>
+		<template>Industrial metal features elements of dance music, techno, and heavy, distorted guitars. Synthesizers and drum machines are heavily used in this sub-genre. Well known industrial metal acts include Nine Inch Nails, Marilyn Manson, Ministry, Rob Zombie/White Zombie, Fear Factory and Rammstein. </template>
+</category>
+<category>
+	<pattern>_  METALCORE</pattern>
+		<template>This style is a fusion between hardcore and thrash Metal. Notable metalcore artists include Hatebreed and Killswitch Engage.</template>
+</category>
+<category>
+	<pattern>_  NEO-CLASSICAL METAL</pattern>
+		<template>Neo-classical metal incorporates elements or melodies from classical music, especially works by Johann Sebastian Bach, Antonio Vivaldi and Niccolo Paganini. Yngwie J. Malmsteen is a perhaps known proponent of this branch of metal, classical elements were used in heavy metal and hard rock date back to Ritchie Blackmore of Deep Purple and Eddie Van Halen's innovations in the late 1970s. </template>
+</category>
+<category>
+	<pattern>_  NU METAL</pattern>
+		<template>Features a pronounced hip hop influence, and guitar technique is often different from "traditional metal." Some argue nu-metal is a misnomer, stating the genre has very little to do with heavy metal. See Korn, Papa Roach, Staind, Linkin Park, Slipknot, Orgy, Drowning Pool, Machine Head and Limp Bizkit. </template>
+</category>
+<category>
+	<pattern>WHAT METAL BANDS DO YOU KNOW</pattern>
+		<template>There are hundreds of metal bands. The most known ones are: Black Sabbath, Iron Maiden,  Metallica, Judas Priest, Motörhead, Slayers and so on.</template>
+</category>
+<category>
+	<pattern>WHAT BANDS DO YOU KNOW</pattern>
+		<template>
+			<srai>WHAT METAL BANDS DO YOU KNOW</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHAT HEAVY METAL BANDS DO YOU KNOW</pattern>
+		<template>
+			<srai>WHAT METAL BANDS DO YOU KNOW</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVOURITE METAL BAND</pattern>
+		<template>
+			<random>
+				<li>I would say </li>
+				<li>Well... my favourite band is </li>
+			</random>
+			<random>
+				<li>Korn. </li>
+				<li>Disturbed. </li>
+				<li>Scum of the earth. </li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVOURITE HEAVY METAL BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHAT BAND DO YOU LIKE THE MOST</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHO IS YOUR FAVOURITE BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHO IS YOUR FAVOURITE GROUP</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHO'S YOUR FAVOURITE GROUP</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHO'S YOUR FAVOURITE BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHAT'S YOUR FAVOURITE HEAVY METAL BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHAT'S YOUR FAVOURITE METAL BAND</pattern>
+		<template>
+			<srai>WHAT IS YOUR FAVOURITE METAL BAND</srai>	
+		</template>
+</category>
+<category>
+	<pattern>WHICH SONG OF KORN YOU LIKE THE MOST</pattern>
+		<template>
+			<random>
+				<li>"Twisted Transistor" for sure.</li>
+				<li>"Coming Undone"</li>
+				<li>"Word Up"</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVOURITE KORN SONG</pattern>
+		<template>
+			<srai>WHICH SONG OF KORN YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT"S YOUR FAVOURITE KORN SONG</pattern>
+		<template>
+			<srai>WHICH SONG OF KORN YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT SONG OF KORN IS YOUR FAVOURITE</pattern>
+		<template>
+			<srai>WHICH SONG OF KORN YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHICH SONG OF DISTURBED YOU LIKE THE MOST</pattern>
+		<template>
+			<random>
+				<li>"Inside the fire for sure"</li>
+				<li>"Indestructible"</li>
+				<li>"Word Up"</li>
+			</random>
+		</template>
+</category>
+	<category>
+		<pattern>WHAT IS YOUR FAVOURITE DISTURBED SONG</pattern>
+			<template>
+				<srai>WHICH SONG OF DISTURBED YOU LIKE THE MOST</srai>
+			</template>
+</category>
+<category>
+	<pattern>WHAT"S YOUR FAVOURITE DISTURBED SONG</pattern>
+		<template>
+			<srai>WHICH SONG OF DISTURBED YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT SONG OF DISTURBED IS YOUR FAVOURITE</pattern>
+		<template>
+			<srai>WHICH SONG OF DISTURBED YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHICH SONG OF SCUM OF THE EARTH YOU LIKE THE MOST</pattern>
+		<template>
+			<random>
+				<li>"Bombshell from hell" for sure.</li>
+				<li>"Hate X 13"</li>
+				<li>"I Am Monster"</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVOURITE SCUM OF THE EARTH SONG</pattern>
+		<template>
+			<srai>WHICH SONG OF SCUM OF THE EARTH YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT"S YOUR FAVOURITE SCUM OF THE EARTH SONG</pattern>
+		<template>
+			<srai>WHICH SONG OF SCUM OF THE EARTH YOU LIKE THE MOST</srai>
+		</template>
+</category>
+<category>
+	<pattern>WHAT SONG OF SCUM OF THE EARTH IS YOUR FAVOURITE</pattern>
+		<template>
+			<srai>WHICH SONG OF SCUM OF THE EARTH YOU LIKE THE MOST</srai>
+		</template>
+</category>
+</aiml>

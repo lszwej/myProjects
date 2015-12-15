@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl">
+    <meta charset="UTF-8">
+    <title> Kalkulator prędkości kosmicznych </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="kalkulator.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1> Kalkulator oblicza prędkości kosmiczene dla planet. </h1>
+    </header>
+
+    <form id="dane">
+        <label> Planeta </label>
+        <select>
+            <option value="wlasna"> Wybierz planetę lub wpisz wartości </option>
+            <option value="merkury"> Merkury </option>
+            <option value="wenus"> Wenus </option>
+            <option value="ziemia"> Ziema </option>
+            <option value="mars"> Mars </option>
+            <option value="jowisz"> Jowisz </option>
+            <option value="saturn"> Saturn </option>
+            <option value="uran"> Uran </option>
+            <option value="neptun"> Neptun </option>
+            <option value="pluton"> Pluton </option>
+        </select> <br />
+
+        <label> Masa </label> <input type="text" id="masa" value="" pl /> kg <br />
+        <label> Promień </label> <input type="text" id="promien" value="" />  km <br />
+        <label> Promień orbity </label> <input type="text" id="orbita" value="" /> AU <br />
+        <label> Masa Słońca </label> <input type="text" id="slonceMasa" readonly="readonly" /> kg <br />
+        <label> Stała grawitacji </label> <input type="text" id="grawitacja" readonly="readonly" /> N*m<sup> 2 </sup>/kg<sup> 2 </sup> <br />
+        <input type="button" value="Oblicz" id="calculate" /> <br /> <br />
+    </form>>
+    <img src="./images/wlasna.jpg" alt="wlasna" /> <br />
+    <hr />
+
+    <form id="wyniki">
+        <label> V1 - pierwsza prędkość kosmiczna </label> <input type="text" readonly="readonly" id="v1" /> km/s <br />
+        <label> V2 - druga prędkość kosmiczna </label> <input type="text" readonly="readonly" id="v2" /> km/s  <br />
+        <label> Vc - prędkość orbitalna </label> <input type="text" readonly="readonly" id="vc" /> km/s <br />
+        <label> Vt - okres orbitalny </label> <input type="text" readonly="readonly" id="vt" /> lata <br />
+        <label> V3 - trzecia prędkość kosmiczna </label> <input type="text" readonly="readonly" id="v3" /> km/s <br />
+    </form>
+</body>
+</html>
