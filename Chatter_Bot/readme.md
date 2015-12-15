@@ -1,0 +1,3 @@
+# Chatter Bot
+
+Project was developed in C# using Windows Form. Questions and answers for bot are stored in AIML files. You can talk with him about heavy metal. If type a text the bot will find the best match and send the answer. You can save the conversation to text file and switch on/off the system voice which read typed text. I was cooperating with two persons and I was the leader and responsible for C# part.

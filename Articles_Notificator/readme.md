@@ -1,0 +1,3 @@
+# Articles Notoficator
+
+It was a part of project which was created in Ruby and Android SDK 20. When the new article appears on web site, your phone will receive a notification. If you touch it you will redirect to article's website. Addresses to new articles is cached txt file. If you are not connected to Wi-Fi you can look through cached articles. I was cooperating with one person and I was responsible for Android part.
