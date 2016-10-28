@@ -1,0 +1,17 @@
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\Magisterka.exe.config
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\Magisterka.exe
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\Magisterka.pdb
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.csprojResolveAssemblyReference.cache
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.mainForm.resources
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.Properties.Resources.resources
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.csproj.GenerateResource.Cache
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.exe
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.pdb
+C:\Users\Luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.ConnectForm.resources
+C:\Users\Luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\MySql.Data.dll
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.SelectForm.resources
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.InsertForm.resources
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.UpdateForm.resources
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.DeleteForm.resources
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.SubqueryForm.resources
+C:\Users\Luki\Documents\Visual Studio 2015\Projects\Magisterka\Magisterka\obj\Debug\Magisterka.MetaLanguageForm.resources

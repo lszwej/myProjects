@@ -1,0 +1,136 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Security;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Magisterka
+{
+    public sealed class DatabaseWrapper : IDisposable
+    {
+        private string server;
+        private string name;
+        private string user;
+        private SecureString password;
+        private SqlConnection connection;
+        private SqlDataAdapter adapter;
+        private DataTable table;
+
+        public string Server
+        {
+            get { return server; }
+            set { server = value; }
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public string User
+        {
+            get { return user; }
+            set { user = value; }
+        }
+
+        public SecureString Password
+        {
+            get { return password; }
+            set { password = value; }
+        }
+
+        public ConnectionState State
+        {
+            get { return connection.State; }
+        }
+
+        public DatabaseWrapper()
+        { }
+
+        public DatabaseWrapper(string server, string name, string user, SecureString password)
+        {
+            if (!string.IsNullOrEmpty(name))
+            {
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                builder.InitialCatalog = server;
+                this.server = server;
+                builder.DataSource = name;
+                this.name = name;
+                builder.UserID = user;
+                this.user = user;
+                builder.Password = password.ToString();
+                this.password = password;
+                connection = new SqlConnection(builder.ConnectionString);
+                ConnectToDatabase();
+            }
+        }
+
+        public DatabaseWrapper(SqlConnection connection)
+        {
+            if (connection != null)
+            {
+                this.connection = connection;
+                server = connection.ConnectionString;
+                name = connection.Database;
+                user = connection.Credential.UserId;
+                password = connection.Credential.Password;
+                ConnectToDatabase();
+            }
+        }
+
+        public DatabaseWrapper(SqlConnectionStringBuilder builder)
+        {
+            if (builder != null)
+            {
+                connection = new SqlConnection(builder.ToString());
+                server = connection.DataSource;
+                name = connection.Database;
+                user = connection.Credential?.UserId;
+                password = connection.Credential?.Password;
+                ConnectToDatabase();
+            }
+        }
+
+        public void ConnectToDatabase()
+        {
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+        }
+
+        public void CloseDatabase()
+        {
+            if (connection.State != ConnectionState.Closed)
+                connection.Close();
+        }
+
+        public object[] ShowTables()
+        {
+            object[] tables = connection.GetSchema("Tables").AsEnumerable().Select(elem => elem["table_name"]).ToArray();
+            return tables;
+        }
+
+        public DataTable SelectAll(string tableName)
+        {
+            string query = string.Format("SELECT * FROM {0};", tableName);
+            adapter = new SqlDataAdapter(query, connection);
+            table = new DataTable();
+            adapter.Fill(table);
+            return table;
+        }
+
+        public void Update()
+        {
+            SqlCommandBuilder comBuilder = new SqlCommandBuilder(adapter);
+            adapter.Update(table);   
+        }
+
+        public void Dispose()
+        {
+            CloseDatabase();
+        }
+    }
+}

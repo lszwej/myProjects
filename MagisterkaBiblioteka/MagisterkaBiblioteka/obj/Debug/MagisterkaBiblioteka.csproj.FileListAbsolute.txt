@@ -1,0 +1,9 @@
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\packages\MagisterkaBiblioteka.dll.config
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\packages\MagisterkaBiblioteka.dll
+c:\users\luki\documents\visual studio 2015\Projects\Magisterka\packages\MagisterkaBiblioteka.pdb
+C:\Users\Luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\MagisterkaBiblioteka.dll.config
+C:\Users\Luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\MagisterkaBiblioteka.dll
+C:\Users\Luki\documents\visual studio 2015\Projects\Magisterka\Magisterka\bin\Debug\MagisterkaBiblioteka.pdb
+C:\Users\Luki\documents\visual studio 2015\Projects\MagisterkaBiblioteka\MagisterkaBiblioteka\obj\Debug\MagisterkaBiblioteka.dll
+C:\Users\Luki\documents\visual studio 2015\Projects\MagisterkaBiblioteka\MagisterkaBiblioteka\obj\Debug\MagisterkaBiblioteka.pdb
+C:\Users\Luki\documents\visual studio 2015\Projects\MagisterkaBiblioteka\MagisterkaBiblioteka\obj\Debug\MagisterkaBiblioteka.csprojResolveAssemblyReference.cache
