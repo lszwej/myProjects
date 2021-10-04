@@ -40,25 +40,25 @@ namespace DeskaGaltona
 
         public bool CheckIfContainer()
         {
-            bool res;
+            bool result;
             if (currentPosition.Y != containerLevel)
-                res = false;
+                result = false;
             else
             {
                 results["Kontener " + currentPosition.X] += 1;
                 Console.WriteLine("*****Kontener numer " + currentPosition.X + " *****");
                 Thread.Sleep(2000);
                 Console.Clear();
-                res = true; 
+                result = true; 
             }
-            return res;
+            return result;
         }
 
         public void RandDirection()
         {   
-            Random rand = new Random();
-            double num = rand.NextDouble();
-            if (num >= 0.5)
+            Random random = new Random();
+            double number = random.NextDouble();
+            if (number >= 0.5)
                 currentPosition.X += 1;
             board[new Point(currentPosition.X, currentPosition.Y)] = "X";
             currentPosition.Y += 1;
@@ -85,9 +85,9 @@ namespace DeskaGaltona
 
         public void PrintResults()
         {
-            Console.WriteLine("**********Statystyki koncowe**********");
-            foreach (KeyValuePair<string, uint> elem in results)
-                Console.WriteLine(elem.Key  + " = " + elem.Value);
+            Console.WriteLine("**********Statystyki końcowe**********");
+            foreach (var element in results)
+                Console.WriteLine(element.Key  + " = " + element.Value);
         }
     }
 }

@@ -9,9 +9,9 @@ namespace DeskaGaltona
         {
             try
             {
-                Console.Write("Wpisz liczbe poziomow ");
+                Console.Write("Wpisz liczbę poziomów ");
                 uint levels = Convert.ToUInt32(Console.ReadLine());
-                Console.Write("Wpisz liczbe kulek ");
+                Console.Write("Wpisz liczbę kulek ");
                 uint balls = Convert.ToUInt32(Console.ReadLine());
                 Galton board = new Galton(levels, balls);
                 Console.Clear();
